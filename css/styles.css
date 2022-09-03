@@ -1,40 +1,76 @@
 body{
-    background-color: beige;
+    background-color: #FCF8E8;
     margin: 0;
     text-align: center;
+    font-family:  'Merriweather', serif;
 }
 
 h1{
     margin-top: 0;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #ECB390;
+}
+
+h2{
+    font-family: 'Montserrat', serif;
+    color: #ECB390;
+}
+
+h3{
+    font-family: 'Montserrat', serif;
+    color: #ECB390;
+}
+
+.work{
+    font-size: 2.625rem;
+    color: #ECB390;
 }
 
 .top-container{
-    background-color: #FCE2DB;
+    background-color: #CEE5D0;
     padding: 20px;
     border: white;
     padding: 100px;
+    position: relative;
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
 }
 
-.middle-container{
-    background-color: #FF8FB1;
-    width: 200px;
-    height: 200px;
+.skill-row{
+    
 }
+.skill-description{
 
-.bottom-container{
-    background-color: #B270A2;
-    width: 200px;
-    height: 200px;
+    clear: left;
+
 }
-
+.icon-img{
+    width: 15%;
+    float: left;
+    margin-right: 30px;
+}
 .pro{
     text-decoration: underline;
+    font-size: 2.625rem;
+    color: #ECB390;
 }
 
 .bottom-cloud{
     position: absolute;
+    left: 300px;
+    bottom: 300px;
 }
 
-.top-cloud{
-    position: absolute;
+.middle-container{
+    background-color: #94B49F;
+
 }
+
+.bottom-container{
+    background-color: #94B49F;
+}
+
