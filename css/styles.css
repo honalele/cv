@@ -41,12 +41,10 @@ h3{
 }
 
 .skill-row{
-    
+    width: 80%;
 }
 .skill-description{
-
     clear: left;
-
 }
 .icon-img{
     width: 15%;
