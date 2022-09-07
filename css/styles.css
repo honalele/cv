@@ -1,74 +1,29 @@
-body{
-    background-color: #FCF8E8;
-    margin: 0;
-    text-align: center;
-    font-family:  'Merriweather', serif;
+#title{
+    background-color: #3F4E4F;
 }
+
+body{
+    font-family: 'Montserrat';
+}
+
 
 h1{
-    margin-top: 0;
-    font-family: 'Sacramento', cursive;
-    font-size: 5.625rem;
-    color: #ECB390;
+    font-family: 'Montserrat';
+    color:white;
+    font-size: 3rem;
+    line-height: 2;
 }
 
-h2{
-    font-family: 'Montserrat', serif;
-    color: #ECB390;
+.container-fluid{
+    padding: 3% 15%;
 }
 
-h3{
-    font-family: 'Montserrat', serif;
-    color: #ECB390;
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
 }
 
-.work{
-    font-size: 2.625rem;
-    color: #ECB390;
+.navbar{
+    padding-bottom: 4rem;
 }
-
-.top-container{
-    background-color: #CEE5D0;
-    padding: 20px;
-    border: white;
-    padding: 100px;
-    position: relative;
-}
-.top-cloud{
-    position: absolute;
-    right: 300px;
-    top: 50px;
-}
-
-.skill-row{
-    width: 80%;
-}
-.skill-description{
-    clear: left;
-}
-.icon-img{
-    width: 15%;
-    float: left;
-    margin-right: 30px;
-}
-.pro{
-    text-decoration: underline;
-    font-size: 2.625rem;
-    color: #ECB390;
-}
-
-.bottom-cloud{
-    position: absolute;
-    left: 300px;
-    bottom: 300px;
-}
-
-.middle-container{
-    background-color: #94B49F;
-
-}
-
-.bottom-container{
-    background-color: #94B49F;
-}
-
