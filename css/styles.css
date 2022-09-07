@@ -1,29 +1,95 @@
-#title{
-    background-color: #3F4E4F;
+#title {
+	background-color: #3f4e4f;
 }
 
-body{
-    font-family: 'Montserrat';
+body {
+	font-family: "Montserrat";
 }
 
-
-h1{
-    font-family: 'Montserrat';
-    color:white;
-    font-size: 3rem;
-    line-height: 2;
+h1 {
+	font-family: "Montserrat";
+	color: white;
+	font-size: 3rem;
+	line-height: 2;
+	margin-inline-start: 5px;
+	margin-inline-end: 5px;
 }
 
-.container-fluid{
-    padding: 3% 15%;
+.container-fluid {
+	padding: 3% 15%;
 }
 
-.navbar-brand{
-    font-family: "Ubuntu";
-    font-size: 2.5rem;
-    font-weight: bold;
+.navbar-brand {
+	font-family: "Ubuntu";
+	font-size: 2.5rem;
+	font-weight: bold;
 }
 
-.navbar{
-    padding-bottom: 4rem;
+/* Navigation bar */
+.navbar {
+	padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+	font-family: "Ubuntu-Bold";
+	font-size: 10.5rem;
+	font-weight: bold;
+}
+
+.nav-item {
+	padding: 0 18px;
+}
+.download-btn {
+	padding: 10px 10px;
+	margin: 5% 3% 5% 0;
+}
+.slogan {
+	line-height: 1.5;
+}
+
+.logo {
+	font-family: "Ubuntu";
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+
+.menu {
+	padding-top: 10px;
+	padding-bottom: 30px;
+	margin-bottom: 2%;
+}
+
+/* Title image */
+.dog-img {
+	width: 80%;
+	transform: rotate(30deg);
+}
+
+/* Section */
+#feature-sec {
+	padding: 7%;
+}
+
+.feature-box {
+	text-align: center;
+	padding: 5%;
+}
+
+.h3 {
+	color: #3f4e4f;
+	font-family: "Montserrat-Bold";
+}
+
+.card-text {
+	color: #a27b5c;
+	font-family: "Ubuntu";
+	font-size: 1.2rem;
+}
+
+.feature-title {
+	font-family: "Montserrat";
+}
+.icon {
+	color: #a27b5c;
+	margin: 5%;
 }
