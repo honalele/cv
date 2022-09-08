@@ -4,6 +4,7 @@
 
 body {
 	font-family: "Montserrat";
+	color: #dcd7c9;
 }
 
 h1 {
@@ -92,4 +93,35 @@ h1 {
 .icon {
 	color: #a27b5c;
 	margin: 5%;
+}
+
+/* Testimonials */
+#testimonials {
+	padding: 7% 15%;
+	text-align: center;
+	background-color: #a27b5c;
+	color: #fff;
+}
+
+h2 {
+	font-family: "Montserrat";
+	font-size: 2rem;
+	padding-bottom: 2%;
+}
+
+.tesimonial-img {
+	width: 30%;
+	border-radius: 100%;
+	margin: 5%;
+}
+
+#press {
+	background-color: #a27b5c;
+	text-align: center;
+	padding-bottom: 3%;
+}
+
+.press-name {
+	width: 15%;
+	margin: 20px 20px 50px;
 }
